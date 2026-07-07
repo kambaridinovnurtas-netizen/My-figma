@@ -1,0 +1,739 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1120px;
+  margin: 0 auto;
+}
+.start {
+  width: 1280px;
+  height: 813px;
+  width: 100%;
+  height: 85vh;
+  background-image: url(./images/Zadniy-fon-1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Hello {
+  width: 417px;
+  height: 100px;
+}
+
+.Modrino {
+  width: 87px;
+  height: 99px;
+}
+.links {
+  width: 700px;
+  height: 130px;
+  margin-left: 393px;
+  padding-top: 50px;
+  display: flex;
+  gap: 30px;
+  list-style: none;
+
+  transition: all 0.2s linear;
+}
+.Home {
+  font-family: Poppins;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 22px;
+  line-height: 100%;
+  transition: all 0.2s linear;
+
+  color: #e9bd8c;
+}
+.Home:hover {
+  transition: all 0.2s linear;
+  transform: scale(1.3);
+  cursor: pointer;
+}
+.link {
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 22px;
+
+  line-height: 100%;
+
+  color: #f5f5f5;
+
+  transition: all 0.2s linear;
+}
+.link:hover {
+  transition: all 0.2s linear;
+  transform: scale(1.3);
+  cursor: pointer;
+}
+.Cafe-text {
+  margin-top: 159px;
+  margin-left: 83px;
+
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 24px;
+  line-height: 100%;
+
+  color: #e9bd8c;
+}
+
+.Perfect-text {
+  margin-top: 24px;
+  margin-left: 80px;
+
+  font-family: Sansita Swashed;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 74px;
+  line-height: 100%;
+
+  color: #f5f5f5;
+}
+.btn {
+  width: 194px;
+  height: 65px;
+  margin-top: 101px;
+  margin-left: 80px;
+  border-radius: 8px;
+  border: 1px #000000;
+  cursor: pointer;
+  transition: all 0.3s linear;
+
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 24px;
+  line-height: 100%;
+
+  color: #f5f5f5;
+  background-color: #933c24;
+}
+.btn:hover {
+  transform: scale(1.2);
+  transition: all 0.3s linear;
+}
+.More-text {
+  margin-top: 124px;
+  margin-left: 37px;
+  cursor: pointer;
+
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 24px;
+  line-height: 100%;
+
+  color: #e9bd8c;
+}
+.img-text {
+  width: 156px;
+  height: 20px;
+}
+.Strelka {
+  width: 19.1px;
+  height: 23.78px;
+  margin-top: 124px;
+  cursor: pointer;
+}
+.More-img {
+  display: flex;
+}
+.Top {
+  width: 387px;
+  height: 40px;
+  margin-top: 130px;
+}
+.Top-text {
+  font-family: Sansita Swashed;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 64px;
+  line-height: 100%;
+  text-align: center;
+  color: #111111;
+}
+.cards {
+  width: 1320px;
+  height: 842px;
+  margin-top: 300px;
+  margin-left: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 50px;
+}
+.card {
+  width: 360px;
+  height: 441px;
+  background-image: url(./images/Back-img.png);
+  background-repeat: no-repeat;
+  transition: all 0.3s linear;
+}
+.card:hover {
+  transform: scale(1.2);
+  transition: all 0.3s linear;
+}
+.Cookie-img {
+  width: 226px;
+  height: 223px;
+  margin-top: 8px;
+}
+.Coolie-img-3 {
+  motion-rotation: 22.97 deg;
+}
+.price {
+  width: 48px;
+  height: 17px;
+  margin-left: 29px;
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 24px;
+  line-height: 100%;
+
+  color: #ffffff;
+}
+.strelka-2 {
+  width: 39px;
+  height: 39px;
+  margin-left: 207px;
+}
+.Information {
+  display: flex;
+}
+.Bread-text {
+  margin-top: 47px;
+  margin-left: 29px;
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 24px;
+  line-height: 100%;
+
+  color: #ffffff;
+}
+.Bread-Add {
+  display: flex;
+}
+.Add-btn {
+  width: 71px;
+  height: 49px;
+  margin-top: 37px;
+  margin-left: 84px;
+  margin-right: 12px;
+  bottom: 16px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 24px;
+  line-height: 100%;
+
+  color: #ffffff;
+  background-color: #933c24;
+}
+
+.Wrapper {
+  width: 1280px;
+  height: 442px;
+  width: 100%;
+  height: 60vh;
+  margin-top: 130px;
+  background-image: url(./images/Back-img-2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Bread {
+  width: 343px;
+  height: 310px;
+  margin-left: 700px;
+  padding-top: 120px;
+  align-items: center;
+}
+.Order-text {
+  text-align: center;
+
+  font-family: Sansita Swashed;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 48px;
+  line-height: 100%;
+  text-align: center;
+  color: #933c24;
+}
+.Suspendisse {
+  margin-top: 37px;
+
+  color: #5d5d5d;
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  line-height: 100%;
+  text-align: center;
+}
+.Learn-More-btn {
+  width: 202px;
+  height: 63px;
+  margin-top: 37px;
+  border-radius: 10px;
+  bottom: 23px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s linear;
+
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 24px;
+  line-height: 100%;
+
+  color: #f9f6f1;
+  background-color: #933c24;
+}
+.Learn-More-btn:hover {
+  transform: scale(1.3);
+  transition: all 0.3s linear;
+}
+.Explore {
+  margin-top: 130px;
+
+  font-family: Sansita Swashed;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 64px;
+  line-height: 100%;
+  text-align: center;
+  color: #111111;
+}
+.Menu .container {
+  width: 1120px;
+  height: 31px;
+}
+.Menu-Links {
+  display: flex;
+  margin-top: 95px;
+  gap: 40px;
+  justify-content: center;
+  list-style: none;
+}
+.Menu-Link {
+  font-family: Poppins;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 24px;
+  line-height: 100%;
+
+  color: #5d5d5d;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+.Menu-Link:hover {
+  transform: scale(1.3);
+  transition: all 0.2s linear;
+}
+.Caces {
+  width: 1520px;
+  display: flex;
+  gap: 70px;
+  margin-top: 121px;
+  margin-left: 300px;
+}
+.Cake-cards {
+  width: 360px;
+  height: 400px;
+
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.Cake-cards:hover {
+  transform: scale(1.2);
+  transition: all 0.3s linear;
+}
+.discount {
+  font-family: Sansita Swashed;
+  font-style: Regular;
+
+  color: #00aeff;
+}
+.BUY-RIGHT-NOW {
+  width: 360px;
+  height: 50px;
+  margin-top: 0px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 24px;
+  line-height: 100%;
+
+  background-color: #933c24;
+  color: #ffffff;
+  transition: all 0.2s linear;
+}
+.BUY-RIGHT-NOW:hover {
+  transform: scale(1.2);
+  transition: all 0.2s linear;
+}
+
+.US {
+  width: 1280px;
+  height: 442px;
+  width: 100%;
+  height: 50vh;
+  margin-top: 130px;
+  background-image: url(./images/Muka-fon.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Muka {
+  width: 343px;
+  height: 370px;
+  margin-left: 740px;
+  padding-top: 82px;
+  align-items: center;
+}
+.About-text {
+  text-align: center;
+
+  font-family: Sansita Swashed;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 48px;
+  line-height: 100%;
+  text-align: center;
+  color: #f5f5f5;
+}
+.EU-text {
+  margin-top: 37px;
+
+  color: #b9b9b9;
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.Read-More-btn {
+  width: 195px;
+  height: 63px;
+  margin-top: 37px;
+  border-bottom-left-radius: 10px;
+  bottom: 23px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s linear;
+
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 24px;
+  line-height: 100%;
+
+  color: #f5f5f5;
+  background-color: #933c24;
+}
+
+.Read-More-btn:hover {
+  transform: scale(1.3);
+  transition: all 0.3s linear;
+}
+.Featured {
+  padding-top: 130px;
+
+  font-family: Sansita Swashed;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 64px;
+  line-height: 100%;
+  text-align: center;
+
+  color: #111111;
+}
+.Foods-all {
+  width: 1820px;
+  height: 530px;
+  display: flex;
+}
+
+.Foods {
+  width: 360px;
+  height: 400px;
+  margin-left: 200px;
+  margin-top: 130px;
+  transition: all 0.3s linear;
+}
+.Foods:hover {
+  transform: scale(1.2);
+  transition: all 0.3s linear;
+}
+.Food {
+  display: flex;
+}
+.Puff-text {
+  margin-left: 31px;
+
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 32px;
+  line-height: 100%;
+
+  color: #000000;
+}
+.Dollar-text {
+  margin-left: 82px;
+
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 32px;
+  line-height: 100%;
+
+  color: #000000;
+}
+.Contact-us {
+  width: 1480px;
+  height: 633px;
+  margin-top: 130px;
+  width: 100%;
+  height: 80vh;
+  background-image: url(./images/Orqa-fon.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Support {
+}
+.Follow-us {
+  height: 200px;
+  display: flex;
+  padding-top: 79px;
+}
+.Follow {
+  padding-right: 44px;
+  margin-left: 650px;
+
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 24px;
+  line-height: 100%;
+  color: #e9bd8d;
+}
+.Facebook {
+  width: 42px;
+  height: 42px;
+  margin-right: 24px;
+}
+.No-name {
+  width: 42px;
+  height: 42px;
+  margin-right: 24px;
+}
+.WhatsApp {
+  width: 42px;
+  height: 42px;
+  margin-right: 24px;
+}
+.Instagramm {
+  width: 42px;
+  height: 42px;
+}
+.Modrino-67 {
+  width: 114px;
+  height: 117px;
+}
+.New-York {
+  width: 243px;
+  height: 210px;
+}
+.About-Us-67 {
+  margin-top: 78.6px;
+
+  font-family: Inter;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 36px;
+  line-height: 100%;
+  color: #e9bd8d;
+}
+.Nomer {
+  margin-top: 38px;
+
+  font-family: Poppins;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 24px;
+  line-height: 100%;
+
+  color: #f5f5f5;
+}
+.info {
+  margin-top: 26px;
+
+  font-family: Poppins;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 24px;
+  line-height: 100%;
+
+  color: #f5f5f5;
+}
+.South {
+  margin-top: 26px;
+
+  font-family: Poppins;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 24px;
+  line-height: 100%;
+
+  color: #f5f5f5;
+}
+.America {
+  margin-top: 26px;
+
+  font-family: Poppins;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 24px;
+  line-height: 100%;
+
+  color: #f5f5f5;
+}
+
+.Information-67 {
+  width: 243px;
+  height: 210px;
+}
+.Information-69 {
+  font-family: Inter;
+  font-weight: 700;
+  font-style: Bold;
+  line-height: 100%;
+
+  color: #e9bd8d;
+  list-style: none;
+  transition: all 0.2s linear;
+}
+.Information-69:hover{
+    transform: scale(1.2);
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+.Number-67 {
+  font-family: Poppins;
+  font-weight: 600;
+  font-style: SemiBold;
+  line-height: 100%;
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+.W {
+  list-style: none;
+  margin-top: 38px;
+}
+.V {
+  margin-top: 26px;
+  list-style: none;
+
+  font-family: Poppins;
+  font-weight: 500;
+  font-style: Medium;
+  line-height: 100%;
+
+  color: #f5f5f5;
+}   
+.Over {
+  display: flex;
+}
+
+.Flex-end {
+  display: flex;
+}
+.img-1-end {
+  margin-top: 31px;
+}
+.End-text {
+    
+  list-style: none;
+
+  font-family: Inter;
+  font-weight: 700;
+  font-style: Bold;
+  line-height: 100%;
+
+  color: #e9bd8d;
+  
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+.End-text:hover{
+    transform: scale(1.2);
+    transition: all 0.2s linear;
+}
+.Ower {
+  margin-left: 23px;
+  margin-top: 31px;
+
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Regular;
+  line-height: 100%;
+
+  color: #e9bd8c;
+}
+.Owen {
+  margin-left: 23px;
+  margin-top: 13px;
+
+  font-family: Poppins;
+  font-weight: 500;
+  font-style: Medium;
+  line-height: 100%;
+
+  color: #f5f5f5;
+}
+.footer-wrapper {
+    display: flex;      
+    justify-content: space-between;
+    margin-top: 52px;
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  line-height: 100%;
+
+  color: #737373;
+}
+.Konets{
+    margin-top: 125px;
+    text-align: center;
+    
+
+
+    font-family: Inter;
+font-weight: 600;
+font-style: Semi Bold;
+line-height: 100%;
+
+color: #737373;
+}
